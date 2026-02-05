@@ -11,9 +11,11 @@
     "target": "esnext",
     "types": [],
     // For nodejs:
-    // "lib": ["esnext"],
-    // "types": ["node"],
+    "lib": ["esnext"],
+    "types": ["node"],
     // and npm install -D @types/node
+
+    "rewriteRelativeImportExtensions": true,
 
     // Other Outputs
     "sourceMap": true,
