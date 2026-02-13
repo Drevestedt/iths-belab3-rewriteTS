@@ -8,7 +8,7 @@ function requireEnv(name) {
     }
     return value;
 }
-const pool = createPool({
+const sqlPool = createPool({
     host: requireEnv('DB_HOST'),
     user: requireEnv('DB_USER'),
     password: requireEnv('DB_PASSWORD'),
@@ -17,10 +17,10 @@ const pool = createPool({
     connectionLimit: 10,
     queueLimit: 0
 });
-export default pool;
+export default sqlPool;
 (async () => {
     try {
-        const connection = await pool.getConnection();
+        const connection = await sqlPool.getConnection();
         console.log('Connection to database successful');
         connection.release();
     }

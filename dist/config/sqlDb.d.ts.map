@@ -1,1 +1,1 @@
-{"version":3,"file":"sqlDb.d.ts","sourceRoot":"","sources":["../../src/config/sqlDb.ts"],"names":[],"mappings":"AAAA,OAAO,EAAc,KAAK,IAAI,EAAE,MAAM,gBAAgB,CAAC;AAavD,QAAA,MAAM,IAAI,EAAE,IAQV,CAAC;AAEH,eAAe,IAAI,CAAC"}
+{"version":3,"file":"sqlDb.d.ts","sourceRoot":"","sources":["../../src/config/sqlDb.ts"],"names":[],"mappings":"AAAA,OAAO,EAAc,KAAK,IAAI,EAAE,MAAM,gBAAgB,CAAC;AAavD,QAAA,MAAM,OAAO,EAAE,IAQb,CAAC;AAEH,eAAe,OAAO,CAAC"}
